@@ -1,0 +1,13 @@
+USAGE:
+     LESSER? value1 value2 
+
+DESCRIPTION:
+     Returns TRUE if the first value is less than the second value.
+     LESSER? is a function .
+
+RETURNS:
+    (undocumented)
+
+ARGUMENTS:
+    value1
+    value2
