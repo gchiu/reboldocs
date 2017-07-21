@@ -20,9 +20,11 @@ Keys for maps must be immutable strings, so you need to lock them first
     Cookie-jar: make map! []
     repend cookie-jar [lock "id.flickelectric.co.nz" "abcd"]
     
-    and if you want to change the value of a key, you again need an immutable string
+and if you want to change the value of a key, you again need an immutable string
     
     site: make object! [host: "id.flickelectric.co.nz"]
     lock site/host
     cookie-jar/(site/host): "efgh"
+    
+Note that if you test in the console, then strings will be automatically locked. You need to test in a script.
     
