@@ -32,4 +32,6 @@ So, here _add_ is being specialized, and it takes two parameters.  So, we can us
 
 >> add2 10
 == 12
+
+You can also set refinements, eg: _find-last: specialize 'find [last: true]_
 ```
